@@ -190,6 +190,9 @@ i[class*='mdi'] {
     transform: translate3d(0,-15px,0) rotate(-270deg);
 }
 /* 文字说明 */
+.profile-section {
+    max-width: 328px;
+}
 .lyear-sentence {
     line-height: 2;
 }
@@ -409,23 +412,28 @@ i[class*='mdi'] {
 /* --------------------------------- *
  * 响应式处理
  * --------------------------------- */
-@media only screen and (max-width: 992px) {
-    .lyear-header {
-        position: relative;
-        width: inherit;
-        height: auto;
-    }
+@media only screen and (max-width: 991px) {
     .lyear-header .lyear-blogger {
         width: 100%;
         position: absolute;
         left: 0;
         top: 1.2rem;
     }
+}
+@media only screen and (max-width: 992px) {
+    .lyear-header {
+        position: relative;
+        width: inherit;
+        height: auto;
+    }
     .lyear-header .navbar {
         padding: 1rem;
     }
     .lyear-wrapper {
         margin-left: 0px;
+    }
+    .profile-section {
+        max-width: 100%;
     }
 }
 @media only screen and (max-width: 1200px) {
