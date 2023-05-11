@@ -1,10 +1,11 @@
+<%@ page contentType="text/html;charset=utf-8" %>
 
 <!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title></title>
+<title>懷疑論星人-白米飯博客</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -15,10 +16,10 @@
 <link rel="stylesheet" type="text/css" href="css/style.min.css" />
 </head>
 <body>
-<header class="lyear-header text-center" style="background-image:url(images/left-bg.jpg);">
+<header class="lyear-header text-center" style="background-image:url(images/astronaut.jpeg);">
   <div class="lyear-header-container">
     <div class="lyear-mask"></div>
-    <h1 class="lyear-blogger pt-lg-4 mb-0"><a href="index.html">笔下光年的博客</a></h1>
+    <h1 class="lyear-blogger pt-lg-4 mb-0"><a href="index.jsp">懷疑論星人-白米飯博客</a></h1>
     <nav class="navbar navbar-expand-lg">
     <a class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <div class="lyear-hamburger">
@@ -28,23 +29,23 @@
     
     <div id="navigation" class="collapse navbar-collapse flex-column">
 	  <div class="profile-section pt-3 pt-lg-0">
-	    <img class="profile-image mb-3 rounded-circle mx-auto" src="images/lyear.png" width="120" height="120" alt="笔下光年" >
-	    <div class="lyear-sentence mb-3">必须记住我们学习的时间是有限的。时间有限，不只由于人生短促，更由于人事纷繁。我们就应力求把我们所有的时间用去做最有益的事情。</div>
+	    <img class="profile-image mb-3 rounded-circle mx-auto" src="images/img.png" width="120" height="120" alt="笔下光年" >
+	    <div class="lyear-sentence mb-3">世界上最伟大的事，是一个人懂得如何作自己的主人。</div>
         <hr>
 	  </div>
 	  
 	  <ul class="navbar-nav flex-column text-center">
 	    <li class="nav-item active">
-          <a class="nav-link" href="index.html">首页</a>
+          <a class="nav-link" href="index.jsp">首页</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="index.html">技术</a>
+	      <a class="nav-link" href="index.jsp">技术</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="index.html">感悟</a>
+	      <a class="nav-link" href="index.jsp">感悟</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="about.html">关于我</a>
+	      <a class="nav-link" href="about.jsp">关于我</a>
 	    </li>
 	  </ul>
 	  
